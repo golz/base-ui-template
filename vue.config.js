@@ -1,12 +1,10 @@
 module.exports = {
   devServer: {
+    port: 8181,
     proxy: {
-      '^/api': {
-        target: 'facebook.com',
+      '/api/workshop/**': {
+        target: 'localhost:8080',
         changeOrigin: true
-      },
-      '^/foo': {
-        target: 'twitter.com'
       }
     }
   }
