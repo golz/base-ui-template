@@ -13,6 +13,16 @@ export default {
   name: 'home',
   components: {
     HelloWorld
+  },
+  metaInfo() {
+    return {
+      title: 'Welcome to Home',
+      titleTemplate: '%s - Yay!',
+      htmlAttrs: {
+        lang: 'en',
+        amp: true
+      }
+    }
   }
 }
 </script>
