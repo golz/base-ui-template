@@ -1,4 +1,5 @@
 const path = require('path')
+const SizePlugin = require('size-plugin')
 
 module.exports = {
   devServer: {
@@ -16,6 +17,9 @@ module.exports = {
       // mutate config for production...
     } else {
       // mutate for development...
+      return {
+        plugins: [new SizePlugin()]
+      }
     }
   },
   pluginOptions: {
