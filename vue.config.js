@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   devServer: {
     port: 8181,
@@ -25,6 +27,12 @@ module.exports = {
       useRenderEvent: true,
       headless: true,
       onlyProduction: true
+    },
+    'style-resources-loader': {
+      preProcessor: 'scss',
+      patterns: [
+        path.resolve(__dirname, "./src/styles/global.scss")
+      ],
     }
   }
 }
