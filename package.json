@@ -1,6 +1,8 @@
 {
   "name": "vue-base-template",
   "version": "0.1.0",
+  "description": "",
+  "author": "Goldwin",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,13 +11,17 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "archiver": "^3.1.1",
     "axios": "^0.19.0",
     "core-js": "^2.6.5",
+    "lozad": "^1.9.0",
     "register-service-worker": "^1.6.2",
     "size-plugin": "^1.2.0",
     "vue": "^2.6.10",
+    "vue-i18n": "^8.14.0",
     "vue-meta": "^2.2.0",
     "vue-router": "^3.0.3",
+    "vue-update-query-mixin": "^1.1.7",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
