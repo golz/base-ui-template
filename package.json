@@ -39,7 +39,7 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "prerender-spa-plugin": "^3.2.1",
     "sass-loader": "^7.1.0",
     "style-resources-loader": "^1.2.1",
